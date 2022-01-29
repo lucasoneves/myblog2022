@@ -1,0 +1,6 @@
+body {
+  color: hsl(0, 0%, 100%);
+  background: linear-gradient(to right bottom, rgb(31, 25, 72), rgb(48, 9, 87));
+  height: 100vh;
+}
+
