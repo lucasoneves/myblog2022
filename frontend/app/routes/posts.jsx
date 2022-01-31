@@ -1,11 +1,13 @@
 import { Outlet } from "remix";
-import styledUrl from '../styles/jokes.css';
+import styledUrl from "../styles/posts.css";
 
 export function links() {
-    return [ {
-        rel: "stylesheet",
-        href: styledUrl
-    }]
+  return [
+    {
+      rel: "stylesheet",
+      href: styledUrl,
+    }
+  ];
 }
 
 export default function JokesRoute() {
